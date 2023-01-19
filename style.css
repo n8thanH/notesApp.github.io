@@ -1,0 +1,93 @@
+/*https://coolors.co/fffffa-0d5c63-44a1a0-78cdd7-247b7b*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#theFather {
+    width: 100%;
+    height: 100vh;
+    background-color: #78cdd7;
+}
+
+header {
+    background-color: #0D5C63;
+    color: white;
+    width: 100%;
+    padding: 5vh;
+    font-size: 3vh;
+}
+
+#notesInputSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+    width: 100%;
+}
+
+#inputContainer input[name="noteTitle"] {
+    width: 30%;
+    height: 5vh;
+    font-size: 2vh;
+    padding-left: .4vw;
+}
+
+#inputContainer input[name="noteDesc"] {
+    width: 30%;
+    height: 5vh;
+    font-size: 2vh;
+    margin-top: 3vh;
+    padding-left: .4vw;
+}
+
+#inputContainer button {
+    width: 20%;
+    height: 5vh;
+    margin-top: 2vh;
+}
+
+#deleteAll {
+    width: 20vw;;
+    height: 5vh;
+    align-self: center;
+}
+
+#notesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vh;
+}
+
+#notesContainer div{
+    padding: 2vh;
+    width: 50vw;
+    background-color: #44A1A0;
+    border-radius: 15px;
+    font-size: 3vh;
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#notesContainer button {
+    background-color: #0D5C63;
+    width: 30%;
+    height: 5vh;
+    color: white;
+    border-radius: 15px;
+    font-size: 2vh;
+    margin-top: 1vh;
+}
